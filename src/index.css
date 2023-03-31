@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .border-card {
+        border: 2px solid transparent;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: transform 0.2s;
+    }
+    .border-card:hover {
+        border-color: #012677;
+        background-color: red;
+    }
+}
